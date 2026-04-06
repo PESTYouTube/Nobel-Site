@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+}
+.header-Block {
+  position: relative;
+  width: 100%;
+  
+}
+.header-Block_logo {
+  position: absolute;
+  z-index: 10;
+  width: 70px;
+  height: 70px;
+  margin: 20px 70px;
+}
+.header-Block_biography {
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  margin: 60px 0px 0px 0px ;
+  display: flex;
+  justify-content: right; /* Центрирование по горизонтали */
+  align-items: center;     /* Центрирование по вертикали */
+  top: 50%;                /* Сдвигаем вниз на 50% */
+  transform: translateY(-50%); /* Точное центрирование по вертикали */
+}
+.header-Block_biography_text {
+  width: 250px;
+  background-color: rgb(112, 76, 44);
+  z-index: 9;
+  margin-right: 440px;
+  text-align: center;      /* Центрируем текст внутри блока */
+  padding: 20px;           /* Добавляем отступы внутри */
+  color: rgb(204, 156, 68);            /* Цвет текста */
+  border-radius: 10px;     /* Закругляем углы */
+  margin-left: 90px;
+}
+.header-Block_history{
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  margin: 60px 70px 0px 0px ;
+  display: flex;
+  justify-content: right;
+  align-items: center;     /* Центрирование по вертикали */
+  top: 50%;                /* Сдвигаем вниз на 50% */
+  transform: translateY(-50%);
+}
+.header-Block_history_text{
+  width: 250px;
+  background-color: rgb(112, 76, 44);
+  z-index: 9;
+  margin-right: 90px;
+  text-align: center;
+  padding: 20px;
+  color: rgb(204, 156, 68);
+  border-radius: 10px;
+}
+.Icon-by-nobel_icon {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+.Icon-by-nobel_icon img {
+  width: 100%;
+  height: 695px;
+  object-fit: cover;
+  position: absolute;
+  z-index: 1;
+  filter: brightness(30%);
+}
+/* .Icon-by-nobel_h1 {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  text-align: center;
+  color: white;
+  font-size: 48px;
+} */
+.Icon-by-nobel_h1{
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  top: 20%;
+  transform: translateY(-80%);  /* Центрируем по вертикали */
+  justify-content: center;
+  color: rgb(204, 156, 68);
+  align-items: center;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 100;
+}
