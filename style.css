@@ -59,7 +59,7 @@
 .Icon-by-nobel_icon {
   width: 100%;
   height: 100%;
-  position: fixed;
+  position: relative;
 }
 .Icon-by-nobel_icon img {
   width: 100%;
@@ -69,17 +69,6 @@
   z-index: 1;
   filter: brightness(30%);
 }
-/* .Icon-by-nobel_h1 {
-  position: absolute;
-  z-index: 10;
-  width: 100%;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-  text-align: center;
-  color: white;
-  font-size: 48px;
-} */
 .Icon-by-nobel_h1{
   position: absolute;
   z-index: 10;
@@ -93,3 +82,54 @@
   font-size: 50px;
   font-weight: 100;
 }
+.body-struct{
+  position: relative;
+  padding-top:695px;
+  width: 100%;
+  z-index: 5;
+}
+.body-struct_text{
+  width: 50%;
+}
+.body-struct_text_conteiner{
+  width: 600px ;
+  margin: 140px 0 0 250px ;
+  text-align: center;
+  font-size: 28px;
+}
+
+.body-struct_img{
+  width: 100%;
+  position: absolute;
+  display:flex;
+  justify-content: right;
+}
+.body-struct_img_conteiner img {
+  width: 700px;
+  margin: 20px 90px;
+  height: auto;
+  object-fit: fill;
+  transform: translateY(-80%);
+}
+.body-struct_text_under-img{
+  margin: 100px 633px;
+  position: absolute;
+  font-size: 23px;
+}
+.body_second{
+  margin: 170px 90px 0;
+  font-size: 25px;
+  justify-content: left;
+  line-height: 1.5;
+}
+.intrestig-facts{
+  margin: 50px 90px;
+  font-size: 25px;
+  line-height: 2;
+}
+.footer{
+  width: 100%;
+  height: 120px;
+  background-color: rgb(112, 76, 44);
+}
+
