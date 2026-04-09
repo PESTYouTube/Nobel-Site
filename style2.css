@@ -1,17 +1,22 @@
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(241, 240, 239)
 }
 
-.header-Block {
+.header-Block1 {
   position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
-  height: 120px;
   z-index: 10;
+  height: 120px;
+  background-color: rgb(246, 221, 179);
+  top: 0;
 }
 
-.header-Block_logo {
+.header-Block_logo1 {
   position: absolute;
   z-index: 11;
   width: 70px;
@@ -20,12 +25,11 @@
   transition: transform 0.5s ease-in-out;
 }
 
-.header-Block_logo:hover {
+.header-Block_logo1:hover {
   transform: rotate(25deg);
 }
 
-/* === БИОГРАФИЯ === */
-.header-Block_biography {
+.header-Block_biography1 {
   position: absolute;
   width: 100%;
   display: flex;
@@ -35,42 +39,39 @@
   transform: translateY(-50%);
 }
 
-.header-Block_biography_text {
+.header-Block_biography_text1 {
   width: 250px;
   background-color: rgb(112, 76, 44);
   z-index: 9;
   margin-right: 440px;
   margin-left: 90px;
-  text-align: center;
   padding: 0;
+  text-align: center;
   color: rgb(204, 156, 68);
   border-radius: 10px;
   transition: background-color 0.5s ease-out;
   box-sizing: border-box;
 }
 
-.header-Block_biography_text a {
+.header-Block_biography_text1 a {
   display: block;
   color: rgb(204, 156, 68);
   text-decoration: none;
-  width: 100%;
-  height: 100%;
-  box-sizing: border-box;
   padding: 20px;
-  border-radius: 10px;
+  width: 100%;
+  height: 100%; 
+  box-sizing: border-box;
 }
 
-.header-Block_biography_text:hover {
+.header-Block_biography_text1:hover {
   background-color: rgb(92, 56, 24);
   cursor: pointer;
 }
 
-/* === ИСТОРИЯ === */
-.header-Block_history {
+.header-Block_history1 {
   position: absolute;
   width: 20%;
   right: 0;
-  
   display: flex;
   justify-content: right;
   align-items: center;
@@ -78,41 +79,40 @@
   transform: translateY(-50%);
 }
 
-.header-Block_history_text {
+.header-Block_history_text1 {
   width: 250px;
   background-color: rgb(112, 76, 44);
-  z-index: 9;
+  z-index: 9 ;
   text-align: center;
-  padding: 0px;
+  padding: 0;
+  padding: 20px;
   color: rgb(204, 156, 68);
   border-radius: 10px;
   margin-right: 90px;
   cursor: pointer;
   transition: background-color 0.5s ease-out;
   box-sizing: border-box;
+  
 }
-
-.header-Block_history_text a {
+.header-Block_history_text1 a{
   display: block;
   color: rgb(204, 156, 68);
   text-decoration: none;
   width: 100%;
-  padding: 20px;
   height: 100%;
+  padding: 15px 25px; /* Пример отступов, настройте под свой дизайн */
   box-sizing: border-box;
-  border-radius: 10px;
 }
 
-.header-Block_history_text:hover {
+.header-Block_history_text1:hover {
   background-color: rgb(92, 56, 24);
-  cursor: pointer;
 }
-.Icon-by-nobel_icon {
+.Icon-by-nobel_icon1 {
   width: 100%;
   height: 100%;
   position: relative;
 }
-.Icon-by-nobel_icon img {
+.Icon-by-nobel_icon1 img {
   width: 100%;
   height: 695px;
   object-fit: cover;
@@ -120,7 +120,7 @@
   z-index: -1;
   filter: brightness(30%);
 }
-.Icon-by-nobel_h1{
+.Icon-by-nobel_h11{
   position: absolute;
   z-index: 9;
   width: 100%;
@@ -133,53 +133,39 @@
   font-size: 50px;
   font-weight: 100;
 }
-.body-struct{
+.first-10-years{
+  margin-top: 170px;
+  padding: 0 40px;
   position: relative;
-  padding-top:695px;
+  display: flex;
   width: 100%;
-  z-index: 5;
+  font-size: 24px;
 }
-.body-struct_text{
+.first-10-years_text{
+  padding-top: 80px;
+  width: 40%;
+  position: absolute;
+}
+.first-10-years_img{
   width: 50%;
+  margin: 0 0 0 auto;
 }
-.body-struct_text_conteiner{
-  width: 600px ;
-  margin: 140px 0 0 250px ;
-  text-align: center;
-  font-size: 28px;
+.first-10-years_img img {
+  width: 800px;
+  border-radius: 200px;
 }
 
-.body-struct_img{
-  width: 100%;
-  position: absolute;
-  display:flex;
-  justify-content: right;
-  z-index: -1;
-}
-.body-struct_img_conteiner img {
-  width: 700px;
-  margin: 20px 90px;
-  height: auto;
-  object-fit: fill;
-  transform: translateY(-80%);
-  z-index: 0;
-}
-.body-struct_text_under-img{
-  margin: 100px 633px;
-  position: absolute;
-  font-size: 23px;
-}
-.body_second{
-  margin: 170px 90px 0;
-  font-size: 25px;
-  justify-content: left;
-  line-height: 1.5;
-}
-.intrestig-facts{
-  margin: 50px 90px;
-  font-size: 25px;
-  line-height: 2;
-}
+
+
+
+
+
+
+
+
+
+
+
 .footer{
   width: 100%;
   height: 120px;
@@ -267,6 +253,6 @@
 .footer-github img {
   width: 100%;
   height: auto;
-  
 }
+
 

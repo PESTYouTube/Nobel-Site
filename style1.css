@@ -1,0 +1,427 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(241, 240, 239)
+}
+
+.header-Block1 {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  height: 120px;
+  background-color: rgb(246, 221, 179);
+  top: 0;
+}
+
+.header-Block_logo1 {
+  position: absolute;
+  z-index: 11;
+  width: 70px;
+  height: 70px;
+  margin: 20px 70px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.header-Block_logo1:hover {
+  transform: rotate(25deg);
+}
+
+.header-Block_biography1 {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.header-Block_biography_text1 {
+  width: 250px;
+  background-color: rgb(112, 76, 44);
+  z-index: 9;
+  margin-right: 440px;
+  margin-left: 90px;
+  text-align: center;
+  padding: 20px;
+  color: rgb(204, 156, 68);
+  border-radius: 10px;
+  transition: background-color 0.5s ease-out;
+}
+
+.header-Block_biography_text1 a {
+  display: block;
+  color: rgb(204, 156, 68);
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+}
+
+.header-Block_biography_text1:hover {
+  background-color: rgb(92, 56, 24);
+  cursor: pointer;
+}
+
+.header-Block_history1 {
+  position: absolute;
+  width: 20%;
+  right: 0;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.header-Block_history_text1 {
+  width: 250px;
+  background-color: rgb(112, 76, 44);
+  z-index: 9 ;
+  text-align: center;
+  padding: 0px;
+  color: rgb(204, 156, 68);
+  border-radius: 10px;
+  margin-right: 90px;
+  cursor: pointer;
+  transition: background-color 0.5s ease-out;
+  box-sizing: border-box;
+}
+.header-Block_history_text1 a{
+  display: block;
+  color: rgb(204, 156, 68);
+  text-decoration: none;
+  width: 100%;
+  padding: 20px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.header-Block_history_text1:hover {
+  background-color: rgb(92, 56, 24);
+}
+
+/* Стили для контента */
+.Child_Nobel {
+  position: relative;
+  margin-top: 120px; /* Отступ под фиксированный хедер */
+  padding: 40px;
+  display: flex;
+  line-height: 1.6;
+}
+.Child_Nobel_info{
+  position: relative;
+  width: 50%;
+  font-size: 24px;
+}
+.Child_Nobel_foto{
+  width: 100%;
+  position: absolute;
+  display:flex;
+  right: 0;
+  justify-content: right;
+  z-index: -1;
+}
+.Child_Nobel_foto img{
+  margin: 0 200px 0 0;
+  width: 450px;
+  height: auto;
+  border-radius: 30px;
+}
+.Child_Nobel_under-foto{
+  width: 50%;
+  position: absolute;
+  display:flex;
+  right: 0;
+  justify-content: right;
+  z-index: -1;
+  margin: 740px 480px 0 0;
+  font-size: 23px;
+}
+.obrazovanie {
+  position: relative;
+  margin: 100px 60px 0 40px;
+  font-size: 24px;
+  line-height: 1.6;
+}
+
+.intresting-intellect {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 20px 60px 0 auto; /* margin-left: auto — прижимает блок вправо */
+  font-size: 24px;
+  line-height: 1.6;
+}
+
+.intresting-intellect_str {
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+  width: 100%;
+  margin: 0px 50px 0 40px; /* margin-left: auto — прижимает блок вправо */
+  font-size: 24px;
+}
+.intresting-intellect_img{
+  max-width: 50%;
+  position: absolute;
+  margin: 30px 0 0 100px; 
+}
+.intresting-intellect_img img{
+  max-width: 50%;
+  margin: 25px 0 0 0;
+  border-radius: 0px;
+}
+.rasdelenie{
+  width: 20%;
+  height: 10px;
+  margin-top: 50px;
+  margin-left: 40%;
+  background-color: rgb(208, 156, 68);
+  border-radius: 10px;
+  
+}
+.young-Nobel{
+  position: relative;
+  display: flex;
+  width: 100%;
+  margin: 50px 0 0 0;
+  padding-left: 40px;
+  font-size: 24px;
+  line-height: 1.6;
+}
+.young-Nobel_text{
+  display: flex;
+  width: 50%;
+  justify-content: right;
+  margin: 0 60px 0 auto;
+}
+.young-Nobel_img{
+  position: absolute;
+  display: flex;
+  flex: 0 0 45%;
+  max-width: 50%;
+}
+.young-Nobel_img img{
+  width: 70%;
+  border-radius: 140px;
+}
+.camback-to-russia{
+  position: relative;
+  margin: 80px 60px 0 40px;
+  line-height: 1.6;
+}
+.camback-to-russia_text{
+  font-size: 24px;
+}
+#rasdelenie1{
+  margin-top: 140px;
+  width: 10%;
+  margin-left: 45%;
+}
+.camback-to-sweden{
+  margin: 80px 60px 0 40px;
+  font-size: 24px;
+  line-height: 1.6;
+}
+.TNT{
+  margin: 80px 0 0 40px;
+  position: relative;
+  height: 700px;
+}
+.TNT-text{
+  width: 50%;
+  position: absolute;
+  font-size: 24px;
+  line-height: 1.6;
+}
+.TNT-img{
+  width: 100%;
+  position: absolute;
+  display:flex;
+  right: 0;
+  justify-content: right;
+  z-index: -1;
+}
+.TNT-img img{
+  margin: 0 100px 0 0;
+  width: 600px;
+  height: auto;
+  border-radius: 30px;
+}
+.lucky, .brother-Nobel,.sofi-and-gress,.cameback-to-Paris,.liter,.nekrolog {
+  margin: 80px 0 0 40px;
+  font-size: 24px;
+  line-height: 1.6;
+  list-style-type: disclosure-closed;
+}
+.zaveschanie{
+  width: 100%;
+  margin: 30px 0 0 0;
+  position: relative;
+  height: 900px;
+}
+.zaveschanie-text{
+  right: 0;
+  margin: 80px 0 0 0;
+  width: 50%;
+  position: absolute;
+  font-size: 24px;
+  line-height: 1.6;
+}
+.zaveschanie-img{
+  margin-top: 80px;
+  padding-left: 200px;
+  width: 100%;
+  position: absolute;
+  display:flex;
+  left: 0;
+  justify-content: left;
+  z-index: -1;
+}
+.zaveschanie-img   img{
+  margin: 0 100px 0 0;
+  width: 600px;
+  height: auto;
+  border-radius: 100px;
+}
+.dead-nobel{
+  margin: 80px 0 0 40px;
+  position: relative;
+  height: 700px;
+}
+.dead-nobel_text{
+  padding-top: 200px;
+  width: 50%;
+  position: absolute;
+  font-size: 24px;
+  line-height: 1.6;
+}
+.dead-nobel_img {
+  position: absolute;
+  right: 0;
+  top: 0; 
+  width: 50%; 
+  height: 100%; 
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center; 
+  z-index: 1;
+}
+.dead-nobel_img   img{
+  margin: 0 200px 0 0;
+  width: 600px;
+  height: auto;
+  border-radius: 100px;
+}
+.zaves-relis{
+  padding-top: 100px;
+  width: 100%;
+  position: relative;
+  font-size: 24px;
+  line-height: 1.6;
+  padding-left: 100px;
+}
+.footer{
+  width: 100%;
+  height: 120px;
+  background-color: rgb(112, 76, 44);
+  display: flex;
+  position: relative;
+}
+.footer-logo{
+  position: absolute;
+  z-index: 10;
+  width: 70px;
+  height: 70px;
+  margin: 20px 70px;
+  transition: transform 0.5s ease-in-out;
+}
+.footer-logo:hover{
+  transform: rotate(25deg);
+}
+.name{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: white;
+  margin: 77px 0 0 0;
+  font-size: 22px;
+}
+.footer-site_nobel{
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  margin: 50px 70px;
+  text-decoration: none;
+  right: 0;
+}
+.footer-site_nobel a{
+  text-decoration: none;
+  color: rgb(208, 156, 68);
+  font-size: 23px;
+}
+.footer-YouTube {
+  position: absolute;
+  width: 60px;
+  height: 70px;
+  right: 230px; /* Сдвинуть левее, чтобы не пересекалось */
+  margin-top: 20px;
+  z-index: 10;
+  transition: transform 0.5s ease-in-out;
+}
+.footer-YouTube:hover{
+  transform: rotate(25deg);
+}
+.footer-YouTube img {
+  width: 100%;
+  height: 100%;
+}
+.footer-facebook {
+  position: absolute;
+  width: 60px;
+  height: 70px;
+  right: 310px; /* Сдвинуть левее, чтобы не пересекалось */
+  margin-top: 25px;
+  z-index: 10;
+  transition: transform 0.5s ease-in-out;
+}
+.footer-facebook:hover{
+  transform: rotate(25deg);
+}
+.footer-facebook img {
+  width: 100%;
+  height: auto;
+}
+.footer-github {
+  position: absolute;
+  width: 50px;
+  height: 70px;
+  right: 390px; /* Сдвинуть левее, чтобы не пересекалось */
+  margin-top: 30px;
+  z-index: 10;
+  transition: transform 0.5s ease-in-out;
+}
+.footer-github:hover{
+  transform: rotate(25deg);
+}
+.footer-github img {
+  width: 100%;
+  height: auto;
+}
+.young-Nobel_footer{
+  position: absolute;
+  margin-top: 520px;
+}
+.TNT_footer{
+  position: absolute;
+  margin-top: 610px;
+  right:0;
+  font-size: 23px;
+  margin-right: 610px;
+}
