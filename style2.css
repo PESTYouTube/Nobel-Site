@@ -292,10 +292,34 @@ body{
   padding-top: 460px;
   padding-left: 140px;
 }
-
-
-
-
+.now-nobel{
+  font-size: 24px;
+  width: 100%;
+  padding: 40px 0 0 40px;
+  height: 460px;
+}
+.now-nobel_text{
+  position: absolute;
+  left: 0;
+  width: 50%;
+  padding-left: 50px;
+  padding-top: 125px;
+  
+}
+.now-nobel_img{
+  position: absolute;
+  right: 0;
+  padding: 20px 70px 0 0;
+}
+.now-nobel_img img{
+  border-radius: 100px;
+  width: 500px;
+}
+.now-nobel_img_under{
+  position: absolute;
+  right: 0;
+  padding: 350px 240px 0 0;
+}
 
 
 
