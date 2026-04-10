@@ -148,15 +148,150 @@ body{
 }
 .first-10-years_img{
   width: 50%;
-  margin: 0 0 0 auto;
+  margin: 0 0 40px auto;
 }
 .first-10-years_img img {
   width: 800px;
   border-radius: 200px;
 }
-
-
-
+.first-10-years_under-footer{
+  position: absolute;
+  display: flex;
+  right: 0;
+  margin: 540px 370px 0 0;
+}
+.first-laur{
+  margin: 40px 0 40px 40px;
+  font-size: 24px;
+}
+.otbor{
+  margin: 40px 0 40px 40px;
+  font-size: 24px;
+}
+.second-10-years{
+  width: 100%;
+  position: relative;
+}
+.second-10-years_pavlov img{
+  width: 400px;
+  margin-left: 70px;
+  border-radius: 100px;
+  position: absolute;
+  top: 50%;       
+  transform: translateY(-50%);
+}
+.second-10-years_mechnikov img{
+  width: 500px;
+  border-radius: 100px;
+  top: 50%;
+  margin-right: 40px;
+  transform: translateY(-50%);
+  right: 0;
+  position: absolute;
+}
+.second-10-years_text{
+  width: 40%;
+  margin: 0 auto 0 auto;
+  padding: 180px 0 180px 0;
+  text-align: center;
+  font-size: 24px;
+}
+.most-popular, .sixteenss-years,.now-etap,.whatisit-evo,.whatisit-display,.whatisit-premia,.second-two,.first-two{
+  margin: 40px 40px 0 40px;
+  font-size: 24px;
+}
+.second-10-years_pavlov_under{
+  font-size: 24px;
+  position: absolute;
+  margin: 589px 0 0 190px;
+}
+.second-10-years_mechnikov_under{
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 160px 200px 0 0;
+}
+.premia-po-econom{
+  font-size: 24px;
+  width: 100%;
+  padding: 80px 0 0 40px;
+  height: 500px;
+  
+}
+.premia-po-econom_text{
+  position: absolute;
+  right: 0;
+  width: 50%;
+  padding-right: 50px;
+  
+}
+.premia-po-econom_img{
+  position: absolute;
+  margin-top: 20px;
+  padding-left: 150px;
+  
+}
+.premia-po-econom_img img{
+  border-radius: 100px;
+}
+.premia-po-econom_text_under{
+  position: absolute;
+  display: flex;
+  margin: 350px 0 0 200px;
+}
+.twenty-twenty-eiht{
+  position: relative;
+  width: 100%;
+  font-size: 24px;
+  padding: 80px 0 0 40px;
+  height: 450px;
+}
+.twenty-twenty-eiht_text{
+  width: 50%;
+  padding-top: 100px;
+  position: absolute;
+}
+.twenty-twenty-eiht_foto{
+  position: absolute;
+  right: 0;
+  height: 500px;
+}
+.twenty-twenty-eiht_foto img{
+  width: 600px;
+  padding-right: 50px;
+}
+.twenty-twenty-eiht_foto_under{
+  position: absolute;
+  right: 0;
+  margin: 310px 70px 0 0
+}
+.primer-twenty-two{
+  font-size: 24px;
+  width: 100%;
+  padding: 80px 0 0 40px;
+  height: 560px;
+}
+.primer-twenty-two-img{
+  position: absolute;
+  margin-top: 20px;
+}
+.primer-twenty-two-img img{
+  border-radius: 100px;
+}
+.primer-twenty-two-text{
+  position: absolute;
+  right: 0;
+  width: 50%;
+  padding-right: 50px;
+  padding-top: 125px;
+  
+}
+.primer-twenty-two-img_under{
+  padding-top: 460px;
+  padding-left: 140px;
+}
 
 
 
@@ -253,6 +388,15 @@ body{
 .footer-github img {
   width: 100%;
   height: auto;
+}
+.rasdelenie{
+  width: 20%;
+  height: 10px;
+  margin-top: 50px;
+  margin-left: 40%;
+  background-color: rgb(208, 156, 68);
+  border-radius: 10px;
+  
 }
 
 
