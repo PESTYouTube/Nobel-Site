@@ -865,7 +865,9 @@ body{
     padding: 10px 2px;
     font-size: 12px;
   }
-  
+  .first-10-years_img{
+    margin-top: 400px;
+  }
   .header-Block_biography1 {
     z-index: 11;
   }
