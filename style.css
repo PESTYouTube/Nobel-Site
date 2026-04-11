@@ -375,7 +375,7 @@ html{
   /* Меню перестраиваем */
   .header-Block_biography {
     width: 180px;
-    right: 210px;
+    right: 160px;
     justify-content: space-between;
   }
   
@@ -530,6 +530,12 @@ html{
     font-size: 12px;
   }
   
+  .header-Block_history {
+    width: 140px;
+  }
+  .header-Block_biography{
+    width: 140px;
+  }
   .Icon-by-nobel_h1 {
     font-size: 28px;
     top: 30%;
