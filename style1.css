@@ -42,7 +42,7 @@ body{
 .header-Block_biography_text1 {
   width: 250px;
   background-color: rgb(112, 76, 44);
-  z-index: 9;
+  z-index: 12;
   margin-right: 440px;
   margin-left: 90px;
   text-align: center;
@@ -74,6 +74,7 @@ body{
   align-items: center;
   top: 50%;
   transform: translateY(-50%);
+  z-index: -1;
 }
 
 .header-Block_history_text1 {
@@ -424,4 +425,389 @@ body{
   right:0;
   font-size: 23px;
   margin-right: 610px;
+}
+/* ============================================= */
+/*        АДАПТАЦИЯ ДЛЯ МОБИЛЬНЫХ ТЕЛЕФОНОВ     */
+/* ============================================= */
+
+@media (max-width: 1000px) {
+  .header-Block_logo1 {
+    margin: 20px 30px;
+  }
+  
+  .header-Block_history1 {
+    left: auto;
+    margin-left: 0;
+    right: 20px;
+    z-index: 1;
+  }
+  .header-Block_biography1 {
+    left: auto;
+    width: 50%;
+    margin-left: 0;
+    right: 200px;
+  }
+  
+  .header-Block_history_text1 {
+    margin-right: 0;
+    flex-grow: 1;
+    z-index: 14;
+  }
+  
+  .header-Block_biography_text1 {
+    margin-left: 120px;
+    margin-right: 100px;
+    width: 220px;
+    flex-grow: 1;
+    z-index: 14;
+  }
+  
+  .Child_Nobel_foto {
+    left: 50%;
+    transform: translateX(-50%);
+    top: auto;
+    bottom: 0;
+    justify-content: center;
+  }
+  .Child_Nobel_foto img {
+    margin: 0;
+  }
+  
+  /* Футер для планшетов */
+  .footer-site_nobel {
+    margin: 50px 20px;
+  }
+  .footer-YouTube {
+    right: 180px;
+  }
+  .footer-facebook {
+    right: 250px;
+  }
+  .footer-github {
+    right: 320px;
+  }
+  .footer-logo {
+    margin: 20px 30px;
+  }
+}
+
+/* ============================================= */
+/*          АДАПТАЦИЯ ПОД СМАРТФОНЫ              */
+/* ============================================= */
+@media (max-width: 768px) {
+  
+  /* ШАПКА */
+  .header-Block1 {
+    height: 100px;
+  }
+  
+  .header-Block_logo1 {
+    width: 50px;
+    height: 50px;
+    margin: 25px 20px;
+  }
+  
+  .header-Block_biography1 {
+    width: 120px;
+    right: 200px;
+    justify-content: space-between;
+  }
+  
+  .header-Block_biography_text1 {
+    width: 120px;
+    height: 60px;
+    top: 50%;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 14px;
+    padding: 0;
+  }
+  
+
+  .header-Block_biography_text1 a {
+    padding: 12px 5px;
+    
+  }
+  
+  .header-Block_history1 {
+    width: 120px;
+    right: 60px;
+  }
+  
+  .header-Block_history_text1 {
+    width: 48%;
+    margin-right: 0;
+    font-size: 14px;
+  }
+  
+  .header-Block_history_text1 a {
+    padding: 12px 5px;
+  }
+  
+  /* ОБЩИЕ НАСТРОЙКИ ТЕКСТА */
+  .Child_Nobel_info,
+  .obrazovanie,
+  .intresting-intellect_str,
+  .young-Nobel_text,
+  .camback-to-russia_text,
+  .camback-to-sweden,
+  .TNT-text,
+  .lucky,
+  .brother-Nobel,
+  .sofi-and-gress,
+  .cameback-to-Paris,
+  .liter,
+  .nekrolog,
+  .zaveschanie-text,
+  .dead-nobel_text,
+  .zaves-relis {
+    font-size: 18px;
+    width: 100% !important;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* КОНТЕНТ: ОТСТУПЫ */
+  .Child_Nobel {
+    margin-top: 100px;
+    padding: 20px;
+    height: auto;
+    display: block;
+  }
+  .obrazovanie,
+  .camback-to-russia,
+  .camback-to-sweden,
+  .lucky,
+  .brother-Nobel,
+  .sofi-and-gress,
+  .cameback-to-Paris,
+  .liter,
+  .nekrolog,
+  .zaves-relis {
+    margin: 40px 20px 0 20px !important;
+    padding-left: 0 !important;
+  }
+  
+  /* ИЗОБРАЖЕНИЯ */
+  .Child_Nobel_foto {
+    position:relative;
+    display: flex;
+
+    z-index: 1;
+    width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .Child_Nobel_foto img {
+    width: 100%;
+    max-width: 400px;
+    left: auto;
+    right: auto;
+    margin-bottom: 30px;
+  }
+  .Child_Nobel_under-foto {
+    position: absolute;
+    margin: 10px 0 0 0;
+    width: 100%;
+    justify-content: center;
+    right: 0;
+    bottom: 0;
+    font-size: 18px;
+  }
+  
+  .young-Nobel {
+    display: block;
+    margin: 40px 20px 0 20px;
+    padding-left: 0;
+  }
+  .young-Nobel_img {
+    position: relative;
+    max-width: 100%;
+    margin: 20px 0;
+    justify-content: center;
+    display: flex;
+  }
+  .young-Nobel_img img {
+    width: 80%;
+    border-radius: 50px;
+  }
+  .young-Nobel_footer {
+    position: relative;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .TNT {
+    height: auto;
+    margin: 40px 20px 0 20px;
+  }
+  .TNT-text {
+    position: relative;
+    width: 100%;
+  }
+  .TNT-img {
+    position: relative;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .TNT-img img {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .TNT_footer {
+    position: relative;
+    margin: 10px 0 0 0;
+    right: 0;
+    text-align: center;
+  }
+  
+  .zaveschanie {
+    height: auto;
+    margin: 20px;
+  }
+  .zaveschanie-text {
+    position: relative;
+    width: 100%;
+    margin: 0;
+  }
+  .zaveschanie-img {
+    position: relative;
+    padding-left: 0;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .zaveschanie-img img {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 30px;
+  }
+  
+  .dead-nobel {
+    height: auto;
+    margin: 20px;
+    display: block;
+  }
+  .dead-nobel_text {
+    position: relative;
+    width: 100%;
+    padding-top: 0;
+  }
+  .dead-nobel_img {
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .dead-nobel_img img {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .rasdelenie {
+    margin-left: 20%;
+    width: 60%;
+  }
+  #rasdelenie1 {
+    margin-left: 40%;
+    width: 20%;
+  }
+  
+  .intresting-intellect {
+    margin: 20px;
+  }
+  .intresting-intellect_img {
+    position: relative;
+    margin: 20px 0 0 0;
+    max-width: 100%;
+  }
+  .intresting-intellect_img img {
+    max-width: 100%;
+  }
+  
+  /* ФУТЕР */
+  .footer {
+    height: auto;
+    min-height: 200px;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  
+  .footer-logo {
+    position: relative;
+    margin: 20px auto 10px auto;
+    left: 0;
+    right: 0;
+  }
+  
+  /* Соцсети в футере - перестраиваем в ряд по центру */
+  .footer-YouTube, .footer-facebook, .footer-github {
+    position: relative;
+    right: auto;
+    left: auto;
+    margin: 10px 15px;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+  }
+  
+  .footer-site_nobel {
+    position: relative;
+    justify-content: center;
+    margin: 20px 0 0 0;
+    right: auto;
+    width: 100%;
+  }
+  
+  .footer-site_nobel a {
+    font-size: 18px;
+  }
+  
+  .name {
+    position: relative;
+    margin: 10px 0 0 0;
+    font-size: 16px;
+    order: 3;
+  }
+}
+
+/* ============================================= */
+/*       ОЧЕНЬ МАЛЕНЬКИЕ ЭКРАНЫ (ДО 480px)       */
+/* ============================================= */
+@media (max-width: 480px) {
+  .header-Block_biography_text1 a {
+    padding: 10px 2px;
+    font-size: 12px;
+    z-index: 12;
+  }
+  
+  .header-Block_history_text1 a {
+    padding: 10px 2px;
+    font-size: 12px;
+  }
+  .header-Block_biography{
+    z-index: 11;
+  }
+  
+  .Child_Nobel_info,
+  .obrazovanie,
+  .young-Nobel_text,
+  .camback-to-russia_text,
+  .camback-to-sweden,
+  .TNT-text,
+  .zaveschanie-text,
+  .dead-nobel_text {
+    font-size: 16px;
+  }
+  
+  .footer-site_nobel a {
+    font-size: 16px;
+  }
+  
+  .name {
+    font-size: 14px;
+  }
 }
